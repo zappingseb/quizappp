@@ -62,8 +62,8 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
             mb: 3
           }}
           >
-            <Typography variant="h6">Dein Preis ist eine Reise nach Belgrad</Typography>
-            <Typography>vom 10-12.10. - Oma & Opa und Oma & Opa und deine Chefs sind informiert und eingeplant.</Typography>
+            <Typography variant="h6">Dein Geschenk ist eine Reise nach Belgrad</Typography>
+            <Typography>vom 10-12.10. - Oma & Opa und Oma & Opa und dein Arbeitskalender sind informiert und eingeplant.</Typography>
             <Typography variant="h5">Happy Birthday!
             </Typography>
           </Paper>
