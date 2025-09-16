@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -135,6 +135,10 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
       </Box>
     );
   };
+
+  useEffect(() => {
+    setSelectedOption(null)
+  }, [])
 
   return (
     <Paper
