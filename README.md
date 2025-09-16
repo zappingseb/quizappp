@@ -341,3 +341,57 @@ Results are processed in `ResultsView.js`:
 ## License
 
 MIT License - feel free to use this project for your own quizzes!
+
+# Public Directory Structure
+
+Your `public/` directory should contain these files:
+
+```
+public/
+├── index.html              ✅ (already created)
+├── manifest.json          ✅ (already created)
+├── favicon.ico            ❌ (you need this)
+├── logo192.png            ❌ (you need this)
+├── logo512.png            ❌ (you need this)
+├── robots.txt             ❌ (recommended)
+├── bg.png                 ✅ (your background image)
+└── images/                ❌ (you need this directory)
+    ├── drawing1.jpg       ❌ (question 1 image)
+    ├── drawing2.jpg       ❌ (question 2 image)
+    └── drawing3.jpg       ❌ (question 9 image)
+```
+
+## Files You Need to Add:
+
+### 1. Create `public/robots.txt`:
+```
+User-agent: *
+Allow: /
+```
+
+### 2. Add favicon files:
+- `favicon.ico` (16x16, 32x32 icon)
+- `logo192.png` (192x192 PNG)
+- `logo512.png` (512x512 PNG)
+
+### 3. Create `public/images/` directory with:
+- `drawing1.jpg` - Airplane drawing
+- `drawing2.jpg` - Suitcase drawing  
+- `drawing3.jpg` - Bridges drawing
+
+### 4. Verify existing files:
+- ✅ `bg.png` (your Belgrade background)
+- ✅ `index.html` (already configured)
+- ✅ `manifest.json` (already configured)
+
+## Quick Icon Generation:
+You can use tools like:
+- https://favicon.io/favicon-generator/
+- https://realfavicongenerator.net/
+- Or create simple icons with any image editor
+
+## Image Recommendations:
+- **Favicon**: Simple, recognizable at small sizes
+- **Logo PNG**: High quality, transparent background
+- **Quiz images**: Optimized for web (JPG format, reasonable file size)
+- **Background**: Already have `bg.png` ✅
