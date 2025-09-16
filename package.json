@@ -1,7 +1,7 @@
 {
   "name": "quiz-webapp",
   "version": "1.0.0",
-  "homepage": "https://zappingseb.github.io/quizapp",
+  "homepage": "https://zappingseb.github.io/quizappp",
   "private": true,
   "dependencies": {
     "@mui/material": "^5.14.0",
