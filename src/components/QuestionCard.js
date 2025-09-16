@@ -138,7 +138,7 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
 
   useEffect(() => {
     setSelectedOption(null)
-  }, [])
+  }, [questionNumber])
 
   return (
     <Paper
@@ -155,7 +155,7 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
           <CardMedia
             component="img"
             height="200"
-            image={question.image}
+            image={`${process.env.PUBLIC_URL + '/' + question.image}`}
             alt="Question illustration"
             sx={{ objectFit: "cover" }}
           />

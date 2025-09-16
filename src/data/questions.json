@@ -11,7 +11,7 @@
       "options": [
         { "text": "Rakete", "phrase": "rakete", "isRightAnswer": false },
         { "text": "Flugzeug", "phrase": "flugzeug", "isRightAnswer": true },
-        { "text": "Schiff", "phrase": "schiff", "isRightAnswer": false },
+        { "text": "Hamster", "phrase": "hamster", "isRightAnswer": false },
         { "text": "U-Boot", "phrase": "u-boot", "isRightAnswer": false }
       ]
     },
