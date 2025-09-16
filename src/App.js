@@ -4,7 +4,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Quiz from './components/Quiz';
 import questionsData from './data/questions.json';
-import { color } from '@mui/system';
 
 const theme = createTheme({
   palette: {
