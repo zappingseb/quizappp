@@ -1,0 +1,120 @@
+{
+  "title": "Livs Geburstags Quiz",
+  "description": "Löse das Rätsel und entdecke dein Geschenk durch 10 spannende Hinweise!",
+  "password":"belgrad",
+  "questions": [
+    {
+      "id": 1,
+      "question": "**Ein erster Hinweis:** Auf einer der Zeichnungen ist ein Objekt zu sehen, das uns an eine schnelle Fortbewegung in der Ferne denken lässt. Es hat zwei Flügel und ein Triebwerk.",
+      "type": "multiple-choice",
+      "image": "/images/drawing1.jpg",
+      "options": [
+        { "text": "Rakete", "phrase": "rakete", "isRightAnswer": false },
+        { "text": "Flugzeug", "phrase": "flugzeug", "isRightAnswer": true },
+        { "text": "Schiff", "phrase": "schiff", "isRightAnswer": false },
+        { "text": "U-Boot", "phrase": "u-boot", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "**Ein zweiter Hinweis:** Was siehst du hier",
+      "type": "multiple-choice",
+      "image": "/images/drawing2.jpg",
+      "options": [
+        { "text": "Tasche", "phrase": "tasche", "isRightAnswer": false },
+        { "text": "Rucksack", "phrase": "rucksack", "isRightAnswer": false },
+        { "text": "Koffer", "phrase": "koffer", "isRightAnswer": true },
+        { "text": "Karton", "phrase": "karton", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "**Das Geschenk:** Dein großes Geschenk ist...",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "ein Flughafen-Besichtigungstermin", "phrase": "flughafen", "isRightAnswer": false },
+        { "text": "ein neuer Koffer", "phrase": "neuer-koffer", "isRightAnswer": false },
+        { "text": "ein Tandemflug", "phrase": "tandemflug", "isRightAnswer": false },
+        { "text": "eine Reise", "phrase": "reise", "isRightAnswer": true }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "**Ein Land, das wir schon besucht haben:** Was ist das jüngste Land, das wir je besucht haben, es wurde erst 1995 nach einem Krieg gegründet?",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Montenegro", "phrase": "montenegro", "isRightAnswer": false },
+        { "text": "Kosovo", "phrase": "kosovo", "isRightAnswer": true },
+        { "text": "Albanien", "phrase": "albanien", "isRightAnswer": false },
+        { "text": "Kroatien", "phrase": "kroatien", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "**Das Essen der Region:** Ein typisches Gericht unseres Reiseziels sind die kleinen, gegrillten Hackfleischröllchen. Sie werden oft mit Zwiebeln und Fladenbrot serviert. Wie heißen sie?",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Gulasch", "phrase": "gulasch", "isRightAnswer": false },
+        { "text": "Pizza", "phrase": "pizza", "isRightAnswer": false },
+        { "text": "Cevabcici", "phrase": "cevabcici", "isRightAnswer": true },
+        { "text": "Köfte", "phrase": "koefte", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "**Der wichtige Fluss:** Das Reiseziel liegt am längsten Fluss Europas. Wie heißt der?",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Rhein", "phrase": "rhein", "isRightAnswer": false },
+        { "text": "Elbe", "phrase": "elbe", "isRightAnswer": false },
+        { "text": "Donau", "phrase": "donau", "isRightAnswer": true },
+        { "text": "Themse", "phrase": "themse", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "**Der berühmte Sportler:** Der international bekannteste Sportler aus dem Land, in das wir reisen, ist ein Tennisspieler, der als einer der besten aller Zeiten gilt. Wie lautet sein Nachname?",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Djokovic", "phrase": "djokovic", "isRightAnswer": true },
+        { "text": "Jovic", "phrase": "jovic", "isRightAnswer": false },
+        { "text": "Federer", "phrase": "federer", "isRightAnswer": false },
+        { "text": "Tesla", "phrase": "tesla", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "**Ein Bauwerk der Stadt:** Auf der Kinderzeichnung ist ein Bauwerk zu sehen. Am Reiseziel gibt es viele davon",
+      "type": "multiple-choice",
+      "image": "/images/drawing3.jpg",
+      "options": [
+        { "text": "Brücke", "phrase": "brücken", "isRightAnswer": true },
+        { "text": "Hochhaus", "phrase": "schienen", "isRightAnswer": false },
+        { "text": "Tunnel", "phrase": "tunnel", "isRightAnswer": false },
+        { "text": "Denkmal", "phrase": "straßen", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "**Das Land, das wir besuchen:** Es ist ein Land in Südosteuropa, aber weder Kroatien, noch Bulgarien noch Bosnien. Du warst noch nie da",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Montenegro", "phrase": "bosnien", "isRightAnswer": false },
+        { "text": "Slowenien", "phrase": "slowenien", "isRightAnswer": false },
+        { "text": "Serbien", "phrase": "serbien", "isRightAnswer": true },
+        { "text": "Nord-Mazedonien", "phrase": "mazedonien", "isRightAnswer": false }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "**Die Auflösung:** Jetzt, wo ihr alle Begriffe gesammelt habt, könnt ihr das Rätsel lösen. Alle Begriffe von \"Flugzeug\" bis \"Serbien\" beschreiben den gleichen Ort: die wunderschöne Stadt...",
+      "type": "multiple-choice",
+      "options": [
+        { "text": "Zagreb", "phrase": "zagreb", "isRightAnswer": false },
+        { "text": "Belgrad", "phrase": "belgrad", "isRightAnswer": true },
+        { "text": "Budapest", "phrase": "budapest", "isRightAnswer": false },
+        { "text": "Sarajevo", "phrase": "sarajevo", "isRightAnswer": false }
+      ]
+    }
+  ]
+}
