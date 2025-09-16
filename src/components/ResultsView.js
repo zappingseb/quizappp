@@ -95,7 +95,7 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
       />
       <Box>
         <Paper elevation={3} sx={{ mb: 3, p:2, display: 'flex', flexDirection: 'column' }}>
-          <Link sx={{display: 'flex', flexDirection: 'column'}} target="new" href="https://www.airbnb.de/rooms/29823897?c=.pi80.pkYm9va2luZy9ndWVzdC9SZXNlcnZhdGlvbkNvbmZpcm1hdGlvblRlbXBsYXRl&euid=9f55bdee-e789-3cdd-23e1-de840d849edf&source_impression_id=p3_1758018458_P3otkhVibS2EUIxr">
+          <Link sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2}} target="new" href="https://www.airbnb.de/rooms/29823897?c=.pi80.pkYm9va2luZy9ndWVzdC9SZXNlcnZhdGlvbkNvbmZpcm1hdGlvblRlbXBsYXRl&euid=9f55bdee-e789-3cdd-23e1-de840d849edf&source_impression_id=p3_1758018458_P3otkhVibS2EUIxr">
           
             <img
               src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/330px-Airbnb_Logo_B%C3%A9lo.svg.png'}
@@ -103,7 +103,7 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
               style={{ maxWidth: "200px", height: "auto" }}
             />
             <img
-              src={'/flat.jpg'}
+              src={`${process.env.PUBLIC_URL}/images/flat.jpg`}
               alt="Lufthansa Logo"
               style={{ maxWidth: "200px", height: "auto" }}
             />
