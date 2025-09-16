@@ -7,7 +7,7 @@
       "id": 1,
       "question": "**Ein erster Hinweis:** Auf einer der Zeichnungen ist ein Objekt zu sehen, das uns an eine schnelle Fortbewegung in der Ferne denken lässt. Es hat zwei Flügel und ein Triebwerk.",
       "type": "multiple-choice",
-      "image": "images/drawing1.jpg",
+      "image": "images/drawing1.png",
       "options": [
         { "text": "Rakete", "phrase": "rakete", "isRightAnswer": false },
         { "text": "Flugzeug", "phrase": "flugzeug", "isRightAnswer": true },
@@ -19,7 +19,7 @@
       "id": 2,
       "question": "**Ein zweiter Hinweis:** Was siehst du hier",
       "type": "multiple-choice",
-      "image": "images/drawing2.jpg",
+      "image": "images/drawing2.png",
       "options": [
         { "text": "Tasche", "phrase": "tasche", "isRightAnswer": false },
         { "text": "Rucksack", "phrase": "rucksack", "isRightAnswer": false },
@@ -86,7 +86,7 @@
       "id": 8,
       "question": "**Ein Bauwerk der Stadt:** Auf der Kinderzeichnung ist ein Bauwerk zu sehen. Am Reiseziel gibt es viele davon",
       "type": "multiple-choice",
-      "image": "images/drawing3.jpg",
+      "image": "images/drawing3.png",
       "options": [
         { "text": "Brücke", "phrase": "brücken", "isRightAnswer": true },
         { "text": "Hochhaus", "phrase": "schienen", "isRightAnswer": false },
