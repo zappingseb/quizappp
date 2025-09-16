@@ -13,12 +13,6 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
   const theme = useTheme();
   const percentage = Math.round((score / totalQuestions) * 100);
 
-  // Count phrase frequencies for tag cloud sizing
-  const phraseCounts = phrases.reduce((acc, phrase) => {
-    acc[phrase] = (acc[phrase] || 0) + 1;
-    return acc;
-  }, {});
-
   const getScoreColor = () => {
     if (percentage >= 80) return "success";
     if (percentage >= 60) return "warning";

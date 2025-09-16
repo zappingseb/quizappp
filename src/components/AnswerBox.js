@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
@@ -8,7 +7,7 @@ import PlaylistRemoveIcon from "@mui/icons-material/PlaylistRemove";
 import { useTheme } from "@mui/material";
 
 const AnswerBox = ({ currentQuestion, questionsData }) => {
-  const [open, setOpen] = useState(currentQuestion == 1);
+  const [open, setOpen] = useState(currentQuestion === 1);
   const theme = useTheme();
 
   return (

@@ -36,7 +36,7 @@ const Quiz = ({ questionsData, phrases, onPhraseAdd, onReset }) => {
         setIsComplete(true);
       }
     },
-    [currentQuestion, questionsData.questions.length, onPhraseAdd]
+    [currentQuestion, questionsData.questions, onPhraseAdd]
   );
 
   const handleRestart = useCallback(() => {
@@ -49,7 +49,7 @@ const Quiz = ({ questionsData, phrases, onPhraseAdd, onReset }) => {
 
   const handleCorrectPassword = useCallback(() => {
     setIsComplete(true)
-  }, [isComplete])
+  }, [])
 
   if (isComplete) {
     return (
@@ -67,7 +67,7 @@ const Quiz = ({ questionsData, phrases, onPhraseAdd, onReset }) => {
   return (
     <Box sx={{ width: "100%", height: "100%" }}>
       {/* Header */}
-      { currentQuestion == 0 &&
+      { currentQuestion === 0 &&
         <Paper
           elevation={1}
           sx={{

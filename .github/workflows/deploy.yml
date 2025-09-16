@@ -38,7 +38,6 @@ jobs:
     - name: Build project
       run: npm run build
       env:
-        CI: false  # Treat ESLint warnings as warnings, not errors
         GENERATE_SOURCEMAP: false  # Reduce build size
         
     - name: Setup Pages
