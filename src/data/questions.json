@@ -107,7 +107,7 @@
     },
     {
       "id": 10,
-      "question": "**Die Auflösung:** Jetzt, wo ihr alle Begriffe gesammelt habt, könnt ihr das Rätsel lösen. Alle Begriffe von \"Flugzeug\" bis \"Serbien\" beschreiben den gleichen Ort: die wunderschöne Stadt...",
+      "question": "**Die Auflösung:** Jetzt, wo du alle Begriffe gesammelt hast, kannst du das Rätsel lösen. Alle Begriffe von \"Flugzeug\" bis \"Serbien\" beschreiben den gleichen Ort: die wunderschöne Stadt...",
       "type": "multiple-choice",
       "options": [
         { "text": "Zagreb", "phrase": "zagreb", "isRightAnswer": false },

@@ -56,7 +56,7 @@ const AnswerBox = ({ currentQuestion, questionsData }) => {
                 backgroundColor: theme.palette.primary.light,
               }}
             >
-              Hier kannst du alle richtigen Antworten sehen, das kann dir später helfen
+              Hier kannst du alle richtigen Antworten sehen, das kann dir später helfen. Auf den Button klicken und die Liste ist weg.
             </Paper>
           )}
         </Paper>

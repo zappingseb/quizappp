@@ -66,12 +66,12 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
             <Typography>vom 10-12.10. - Oma & Opa und Oma & Opa und dein Arbeitskalender sind informiert und eingeplant.</Typography>
             <Typography variant="h5">Happy Birthday!
             </Typography>
+            <Typography variant="span">Passwort vorn: belgrad</Typography>
           </Paper>
 
       {/* Phrase Collection - Tag Cloud */}
       <BookingOverview
         bookingCode="95QWNK"
-        flightDurationMinutes={100} // 1h40 = 100 minutes
         flights={[
           {
             departureDate: "10.10.2025",
@@ -81,6 +81,7 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
             arrivalIATA: "BEG",
             departureCity: "Munich",
             arrivalCity: "Belgrade",
+            arrivalTime: "16:35"
           },
           {
             departureDate: "12.10.2025",
@@ -90,6 +91,7 @@ const ResultsView = ({ phrases, answers, score, totalQuestions, onRestart, title
             arrivalIATA: "MUC",
             departureCity: "Belgrade",
             arrivalCity: "Munich",
+            arrivalTime: "14:40"
           },
         ]}
       />
