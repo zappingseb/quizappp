@@ -199,7 +199,6 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
       {/* Answer Options */}
       <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {question.options.map((option, index) => {
-          console.log("Running option", option.text);
           const buttonStyles = getButtonStyles(option, index);
           return (
             <Button
