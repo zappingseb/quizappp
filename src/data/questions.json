@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "**Ein erster Hinweis:** Auf einer der Zeichnungen ist ein Objekt zu sehen, das uns an eine schnelle Fortbewegung in der Ferne denken lässt. Es hat zwei Flügel und ein Triebwerk.",
+      "question": "**Ein erster Hinweis:** Auf einer der Zeichnungen ist ein Objekt zu sehen. Was ist das? ",
       "type": "multiple-choice",
       "image": "images/drawing1.jpg",
       "options": [
