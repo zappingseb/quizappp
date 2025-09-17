@@ -24,8 +24,8 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
       // Auto-advance after showing feedback
       setTimeout(() => {
         onAnswer(option);
-        setSelectedOption(null);
         setShowFeedback(false);
+        setSelectedOption(null);
       }, 1500);
     }
   };
@@ -42,16 +42,22 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
           borderRadius: "10px",
           background: "#FFF",
           boxShadow: "5px 9px 8.1px 0 rgba(0, 0, 0, 0.05)",
-          border: "none",
+          border: 0,
           textTransform: "none",
           fontSize: "1rem",
           minHeight: "56px",
           "&:hover": {
-            background: "#FE909D",
-            color: "white",
-            transform: "translateY(-2px)",
-            boxShadow: "5px 11px 12px 0 rgba(0, 0, 0, 0.1)",
             border: 0,
+            background: "#fff"
+          },
+          "@media (hover: hover) and (pointer: fine)": {
+            "&:hover": {
+              background: "#FE909D",
+              color: "white",
+              transform: "translateY(-2px)",
+              boxShadow: "5px 11px 12px 0 rgba(0, 0, 0, 0.1)",
+              border: 0,
+            },
           },
           transition: "all 0.2s ease-in-out",
         },
@@ -137,8 +143,8 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
   };
 
   useEffect(() => {
-    setSelectedOption(null)
-  }, [questionNumber])
+    setSelectedOption(null);
+  }, [questionNumber]);
 
   return (
     <Paper
@@ -155,7 +161,7 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
           <CardMedia
             component="img"
             height="200"
-            image={`${process.env.PUBLIC_URL + '/' + question.image}`}
+            image={`${process.env.PUBLIC_URL + "/" + question.image}`}
             alt="Question illustration"
             sx={{ objectFit: "cover" }}
           />
@@ -193,6 +199,7 @@ const QuestionCard = ({ question, onAnswer, questionNumber, totalQuestions }) =>
       {/* Answer Options */}
       <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {question.options.map((option, index) => {
+          console.log("Running option", option.text);
           const buttonStyles = getButtonStyles(option, index);
           return (
             <Button

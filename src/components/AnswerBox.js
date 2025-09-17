@@ -12,7 +12,7 @@ const AnswerBox = ({ currentQuestion, questionsData }) => {
 
   return (
     <Box sx={{ position: "fixed", top: 0, left: 0, maxWidth: "80%" }}>
-      <Paper elevation={1} sx={{textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent:'center', width: 48, backgroundColor: !open ? 'transparent' : theme.palette.primary.main, border: open ? '2px solid ' + theme.palette.primary.light : '0'}}>
+      <Paper elevation={1} sx={{textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent:'center', width: 48, backgroundColor: !open ? 'white' : theme.palette.primary.main, border: open ? '2px solid ' + theme.palette.primary.light : '0'}}>
         <IconButton
           size="large"
           edge="start"
